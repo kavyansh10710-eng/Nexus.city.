@@ -7,3 +7,15 @@ fetch(
  .innerHTML =
  data.current_weather.temperature+"°C";
 });
+function recommendation(risk){
+
+if(risk>70){
+ return "Increase water storage immediately";
+}
+
+if(risk>40){
+ return "Monitor conditions";
+}
+
+return "Situation Normal";
+}

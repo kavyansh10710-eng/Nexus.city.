@@ -19,3 +19,18 @@ if(risk>40){
 
 return "Situation Normal";
 }
+function openMap(){
+
+document.getElementById(
+"mapModal"
+).style.display="block";
+
+}
+
+function closeMap(){
+
+document.getElementById(
+"mapModal"
+).style.display="none";
+
+}

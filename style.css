@@ -125,3 +125,9 @@ bottom:20%;
 left:70%;
 
 }
+.high-risk{
+filter:
+brightness(.8)
+drop-shadow(
+0 0 20px red);
+}

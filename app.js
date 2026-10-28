@@ -34,3 +34,12 @@ document.getElementById(
 ).style.display="none";
 
 }
+document.querySelector(
+".spot1"
+).onclick=()=>{
+
+alert(
+"Industrial Zone\nRisk Level: Medium"
+);
+
+}

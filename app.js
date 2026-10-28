@@ -43,3 +43,14 @@ alert(
 );
 
 }
+if(risk>70){
+
+document
+.querySelector(
+".city-map"
+)
+.classList.add(
+"high-risk"
+);
+
+}
